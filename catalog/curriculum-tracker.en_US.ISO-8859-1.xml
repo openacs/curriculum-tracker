@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="curriculum-tracker" package_version="0.1d" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="key">Key</msg>
+  <msg key="level">Level</msg>
+  <msg key="description">Description</msg>
+  <msg key="very_low">Very Low</msg>
+  <msg key="low">Low</msg>
+  <msg key="moderate">Moderate</msg>
+  <msg key="high">High</msg>
+  <msg key="very_high">Very High</msg>
+  <msg key="uos_details">Unit of Study Details</msg>
+  <msg key="accumulated_development_of_graduate_attributes">Accumulated development of graduate attributes.</msg>
+  <msg key="graduate_attributes_progress_caption">Chart conveys your progress in developing graduate attributes from completed Units of Study (UoS).</msg>
+  <msg key="view_progress">View Progress</msg>
+  <msg key="status_of_completed_uos_key">The following colour coded boxes indicate whether a Unit of Study (UoS) has been completed or not.</msg>
+  <msg key="status_changed_to_complete">Status changed to Complete</msg>
+  <msg key="status_changed_to_incomplete">Status changed to Incomplete</msg>
+  <msg key="change_to_complete">Change to Complete</msg>
+  <msg key="change_to_incomplete">Change to Incomplete</msg>
+  <msg key="status_complete">Status: Complete</msg>
+  <msg key="status_incomplete">Status: Incomplete</msg>
+  <msg key="complete">Complete</msg>
+  <msg key="incomplete">Incomplete</msg>
+  <msg key="requirement">Requirement</msg>
+  <msg key="name">Name</msg>
+  <msg key="code">Code</msg>
+  <msg key="year_offered">Year Offered</msg>
+  <msg key="session">Session</msg>
+  <msg key="lecturer">Lecturer</msg>
+  <msg key="objectives">Aims and Objectives</msg>
+  <msg key="outcomes">Learning Outcomes</msg>
+  <msg key="syllabus">Syllabus</msg>
+  <msg key="view_details">View Details</msg>
+  <msg key="confirm_delete_degree">Are you sure you want to delete the degree from the list?</msg>
+  <msg key="degree_deleted">Degree deleted.</msg>
+  <msg key="delete">Delete</msg>
+  <msg key="no_file_found_for_upload">No file found for upload.</msg>
+  <msg key="import_succeeded">Import succeeded.</msg>
+  <msg key="import_failed">Import failed.</msg>
+  <msg key="upload_curriculum_file">Upload curriculum file.</msg>
+  <msg key="help_upload_curriculum_file">Upload a curriculum file that was exported from Curriculum Central.</msg>
+  <msg key="import_degree">Import Degree</msg>
+  <msg key="select_a_curriculum_to_view">Select a curriculum to view:</msg>
+  <msg key="degree">Degree</msg>
+  <msg key="degrees">Degrees</msg>
+  <msg key="unit_of_study">Unit of Study</msg>
+  <msg key="units_of_study">Units of Study</msg>
+  <msg key="graduate_attribute">Graduate Attribute</msg>
+  <msg key="graduate_attributes">Graduate Attributes</msg>
+
+</message_catalog>

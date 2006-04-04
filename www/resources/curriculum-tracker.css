@@ -1,0 +1,261 @@
+.spacer {
+	clear: both;
+}
+
+
+/* Status box */
+
+#ct-status-container {
+	text-align: center;
+	margin: 0px auto;
+	width: 200px;
+	margin-top: 2em;
+	padding-bottom: 1em;
+}
+
+#ct-status-container .complete ul {
+	color: #128812;
+	list-style-type: none;
+	padding: 5px;
+	border: 1px solid #000;
+	font-weight: bold;
+}
+
+#ct-status-container .complete ul li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#ct-status-container .incomplete ul {
+	color: #B91309;
+	list-style-type: none;
+	padding: 5px;
+	border: 1px solid #000;
+	font-weight: bold;
+}
+
+#ct-status-container .incomplete ul li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+/* Map Container */
+#ct-map-container {
+
+}
+
+#ct-map-container .spacer {
+	clear: both;
+}
+
+#ct-map-container ul {
+	list-style-type: none;
+	margin-left: 1em;
+	padding: 0px;
+}
+
+#ct-map-container .float {
+	float: left;
+  	width: 120px;
+	height: 113px;
+  	padding: 10px;
+	margin: 1em;
+	border: 1px solid #000;
+}
+
+#ct-map-container .float ul {
+	margin-left: 0;
+}
+
+#ct-map-container .float ul.info {
+	height: 80px;
+	background-color:white;
+}
+
+#ct-map-container .float ul.options {
+	height: 30px;
+}
+
+#ct-map-container .float ul li.uos-code {
+	color: #E88000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0px;
+}
+
+#ct-map-container .float ul li.uos-name {
+	margin-top: 5px;
+	color: #4B832E;
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+}
+
+#ct-map-container .float ul li.info {
+	color: blue;
+	font-size: 12px;
+	text-align: center;
+	padding: 2px;
+}
+
+#ct-map-container ul.years li {
+	list-style-type: none;
+	color: #686868;
+	font-size: 18px;
+        font-weight: bold;
+}
+
+#ct-map-container ul.sessions li {
+	list-style-type: none;
+	color: #9B9B9B;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+}
+
+#ct-map-container #key {
+	border: 1px solid #000;
+	width: 60%;
+	margin-bottom: 1em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#ct-map-container #key ul {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#ct-map-container #key ul li {
+	list-style-type: none;
+	border: 1px solid #000;
+	padding: 3px;
+	margin: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	display: inline;
+}
+
+#ct-map-container #key h3 {
+	clear: left;
+}
+
+#ct-map-container .incomplete {
+	background-color: #FF6666;
+}
+
+#ct-map-container .complete {
+	background-color: #99CCFF;
+}
+
+/* Stream Container */
+#ct-degree-container {
+	margin-left: 30px;
+}
+
+#ct-degree-container ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: verdana, arial, sans-serif;
+}
+
+#ct-degree-container li {
+	margin: 0;
+}
+
+/* Degree */
+#ct-degree-container ul li {
+	color: #000;
+	font-size: 12px;
+	display: block;
+	border-left: 1em solid #686868;
+	border-bottom: 1px solid #686868;
+	padding: 4px 8px;
+	width: 50em;
+	margin-bottom: 5px;
+}
+
+#ct-degree-container ul li span.label {
+	margin-left: 3em;
+	float:left;
+}
+
+#ct-degree-container ul li span.options {
+	float: right;
+}
+
+/* Styles for lists */
+#ct-list-container table {
+	width: 100%;
+}
+
+#ct-list-container table tr td {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+	margin: 1px;
+	vertical-align: top;
+}
+
+#ct-list-container table tr td.label {
+	background-color: #CCCCCC;
+	width: 160px;
+}
+
+#ct-list-container table tr td.value {
+	background-color: #F0F0F0;
+}
+
+/* Bar chart */
+/* CSS taken from http://www.standards-schmandards.com/exhibits/barchart/ */
+#ct-barchart-container td.value {
+	background-image: url(/resources/curriculum-tracker/images/gridline58.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	padding:0;
+	border-bottom: none;
+	background-color:transparent;
+}
+
+#ct-barchart-container td {
+	padding: 4px 6px;
+	border-bottom:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+	background-color:#fff;
+}
+
+#ct-barchart-container td.value img {
+	vertical-align: middle;
+	margin: 5px 5px 5px 0;
+}
+
+#ct-barchart-container th {
+	text-align: left;
+	vertical-align:top;
+}
+
+#ct-barchart-container td.last {
+	border-bottom:1px solid #e5e5e5;
+}
+
+#ct-barchart-container td.first {
+	border-top:1px solid #e5e5e5;
+}
+
+#ct-barchart-container table {
+	background-image:url(/resources/curriculum-tracker/images/bg_fade.png);
+	background-repeat:repeat-x;
+	background-position:left top;
+	width: 33em;
+}
+
+#ct-barchart-container caption {
+	font-size:90%;
+	font-style:italic;
+}
