@@ -9,7 +9,7 @@ ad_page_contract {
 }
 
 set page_title "[_ curriculum-tracker.import_degree]"
-set context [list]
+set context {}
 set package_id [ad_conn package_id]
 set owner_id [ad_conn user_id]
 
