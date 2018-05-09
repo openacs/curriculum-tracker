@@ -7,7 +7,7 @@ ad_page_contract {
 }
 
 set page_title [ad_conn instance_name]
-set context {}
+set context [list]
 set package_id [ad_conn package_id]
 set owner_id [ad_conn user_id]
 
