@@ -9,7 +9,7 @@
 
 <div id="ct-status-container">
 
-<if @completed_p@>
+<if @completed_p;literal@ true>
 <div class="complete">
 <ul>
 <li>#curriculum-tracker.status_complete#</li>

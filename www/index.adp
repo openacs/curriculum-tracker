@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/resources/curriculum-tracker/curriculum-tracker.css" media="all">
 </property>
 
-<if @imported_degrees_p@>
+<if @imported_degrees_p;literal@ true>
 #curriculum-tracker.select_a_curriculum_to_view#
 <p />
 <div id="ct-degree-container">

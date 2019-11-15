@@ -29,7 +29,7 @@
 
       <ul id="uos">
         <group column="ys_group">
-        <if @curriculum.completed_p@>
+        <if @curriculum.completed_p;literal@ true>
 	<div class="float complete">
         </if>
         <else>
