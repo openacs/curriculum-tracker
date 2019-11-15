@@ -33,7 +33,7 @@ ad_proc curriculum_tracker::parse_degree_file {
 	}
 	
 	# Parser
-	dom parse [::tDOM::xmlReadFile $xmlfile] document
+	dom parse [::tdom::xmlReadFile $xmlfile] document
 	
 	# DOM document = DOM root
 	$document documentElement root
